@@ -1,6 +1,6 @@
-# forecasting-model-dab
+# dab-template
 
-A Template for a Declarative Automation Bundle (DAB) project.
+A Template for a Databricks Declarative Automation Bundle (DAB) project.
 
 ## Repository Structure
 
@@ -34,4 +34,13 @@ forecasting-model-dab/
 ├── .gitignore
 ├── CHANGELOG.md
 └── README.md
+```
+
+## Quickstart
+
+```bash
+databricks auth login --host <put the https link to your host here>
+databricks bundle validate  
+databricks bundle deploy
+databricks bundle run hello_world_job
 ```
