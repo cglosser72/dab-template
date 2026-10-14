@@ -1,6 +1,6 @@
 # forecasting-model-dab
 
-A Declarative Automation Bundle (DAB) project for forecasting model development, testing, and deployment using GitHub, VS Code, Ruff, Pytest, and CI/CD.
+A Template for a Declarative Automation Bundle (DAB) project.
 
 ## Repository Structure
 
